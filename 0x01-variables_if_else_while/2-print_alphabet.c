@@ -2,15 +2,17 @@
 
 /**
  * main - prints alpha in lower case
+ *
  * Return: Always 0
  */
 int main(void)
 {
-	char lc;
+	int ch = 'a'
 
-	for (lc = 'a'; lc <= 'z'; lc++;
+	while (ch <= 'z')
 	{
-		putchar(lc);
+		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
 	return (0);
