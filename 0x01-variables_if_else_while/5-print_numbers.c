@@ -1,18 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - Prints numbers from 0 to 9
+ * main - return single integer from 0-10
  *
  * Return: Always 0 (success)
  */
 int main(void)
-{
-	int i;
 
-	for (i = 0; i < 10; i++)
+{
+	int num = 0;
+
+	while (num < 10)
 	{
-		printf("%d", i);
+		printf("%d", num);
+		num++;
 	}
-	putchar('\n')
+	putchar('\n');
+
 	return (0);
 }
