@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strspn - return length of string that matches values consistently
- * @s: string to search
- * @accept: target matches
- * Return: number of bytes consecutively matched
- */
+* _strspn - return length of string that matches values consistently
+* @s: string to search
+* @accept: target matches
+* Return: number of bytes consecutively matched
+*/
 
 unsigned int _strspn(char *s, char *accept)
 {
@@ -23,6 +23,7 @@ unsigned int _strspn(char *s, char *accept)
 			}
 
 			if (accept[j + 1] == '\0' && s[i] != accept[j])
+
 			return (matches);/*return if idx doesn't match*/
 		}
 
@@ -30,4 +31,5 @@ unsigned int _strspn(char *s, char *accept)
 	}
 
 	return (matches); /* return num if all match till end */
+
 }

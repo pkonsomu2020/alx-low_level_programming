@@ -3,14 +3,12 @@
 /**
  * _isdigit - checks for digits
  * @c: parameter
- * Return: 1 if c is a digital, 0 otherwise
+ * Return: 0 or 1
  */
 
 int _isdigit(int c)
 {
-	int y = 0;
-
-	if (c >= '0' && c <= '9')
+	if (c >= 48 && c < 58)
 	{
 		return (1);
 	}
