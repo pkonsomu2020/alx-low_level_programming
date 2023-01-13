@@ -1,6 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
  * insert_dnodeint_at_index - inserts a new node at a given position
  * @h: double pointer to the beginning of the linked list
@@ -9,6 +10,7 @@
  *
  * Return: pointer to the new node, or NULL on failure
  */
+
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new, *next, *current;
